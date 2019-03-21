@@ -1,0 +1,47 @@
+* {
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+.clearfix::after {
+	content:"";
+	display:block;
+	clear:both;
+}
+.header {
+	width:100%;/* 横幅 */
+	height:50px;/* 高さ */
+	background-color:red;/* 背景色 */
+}
+.main-visual {
+	width:100%;/* 横幅 */
+	height:500px;/* 高さ */
+	background-color:orange;/* 背景色 */
+}
+.main {
+	width:960px;/* 横幅 */
+	margin:0 auto;/* BOXを中央に寄せる */
+}
+.sidebar-left {
+	width:230px;/* 横幅 */
+	height:1400px;/* 高さ */
+	background-color:palegreen;/* 背景色 */
+	float:left;/* 横並びにする(左寄せ) */
+}
+.center {
+	width:500px;/* 横幅 */
+	height:1400px;/* 高さ */
+	background-color:limegreen;/* 背景色 */
+	float:left;/* 横並びにする(左寄せ) */
+}
+.sidebar-right {
+	width:230px;/* 横幅 */
+	height:1400px;/* 高さ */
+	background-color:palegreen;/* 背景色 */
+	float:left;/* 横並びにする(左寄せ) */
+}
+.footer {
+	width:100%;/* 横幅 */
+	height:100px;/* 高さ */
+	background-color:blue;/* 背景色 */
+}
