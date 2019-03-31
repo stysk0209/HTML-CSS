@@ -52,7 +52,9 @@ main {
 
 .title,
 .sentence {
-	padding: 0 10px 10px 10px;
+	margin-right: 10px;
+	margin-left: 10px;
+	margin-bottom: 10px;
 }
 
 .step-num {
@@ -60,4 +62,52 @@ main {
 	background-color: orange;
 	color: white;
 	position: absolute;
+}
+
+/* レスポンシブ対応　768px以下の設定 */
+@media screen and (max-width:768px) {
+	main {
+		width: 100%;
+	}
+	.step-box {
+		width: 90%;
+		margin-right: 5%;
+		margin-left: 5%;
+		margin-bottom: 20px;
+	}
+	.step-box:last-child {
+		margin-bottom: 0;
+	}
+	.step-img1 {
+		width: 96%;
+		padding-top: 40%;
+		margin: 2%;
+	}
+	.step-img2 {
+		width: 96%;
+		padding-top: 40%;
+		margin: 2%;
+	}
+	.step-img3 {
+		width: 96%;
+		padding-top: 40%;
+		margin: 2%;
+	}
+	.title {
+		margin-right: 2%;
+		margin-left: 2%;
+		margin-bottom: 2%;
+		font-size: 4.5vw;
+		padding-top: 2%;
+	}
+	.sentence {
+		margin-right: 2%;
+		margin-left: 2%;
+		margin-bottom: 2%;
+		font-size: 3.5vw;
+	}
+	.step-num {
+		padding: 1.5%;
+		font-size: 3vw;
+	}
 }
