@@ -29,6 +29,7 @@ main {
 .step-img1 {
 	width: 280px;
 	height: 150px;
+	margin: 10px;
 	background-image: url(img/flow01.png);
 	background-size: cover;
 	background-position: bottom;
@@ -37,6 +38,7 @@ main {
 .step-img2 {
 	width: 280px;
 	height: 150px;
+	margin: 10px;
 	background-image: url(img/flow02.png);
 	background-size: cover;
 	background-position: bottom;
@@ -45,6 +47,7 @@ main {
 .step-img3 {
 	width: 280px;
 	height: 150px;
+	margin: 10px;
 	background-image: url(img/flow03.png);
 	background-size: cover;
 	background-position: bottom;
