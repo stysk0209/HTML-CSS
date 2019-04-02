@@ -305,3 +305,8 @@ header {
 	color: #fafafa;
 	line-height: 60px;
 }
+
+/* レスポンシブ対応 */
+@media screen and (max-width: 768px) {
+	
+}
